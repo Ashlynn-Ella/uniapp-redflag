@@ -1,0 +1,149 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "红旗智慧农业物联网"
+			}
+		}, {
+			"path": "pages/data/data",
+			"style": {
+				"navigationBarTitleText": "数据分析"
+			}
+
+		}, {
+			"path": "pages/control/control",
+			"style": {
+				"navigationBarTitleText": "控制中心"
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FEFEFE"
+			}
+
+		}
+	    ,{
+            "path" : "pages/admin/admin",
+            "style" :                                                                                    
+            {
+				"navigationBarTextStyle": "black",
+                "navigationBarTitleText": "用户列表",
+				"navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit-user/edit-user",
+            "style" :                                                                                    
+            {
+               "navigationBarTextStyle": "black",
+               "navigationBarTitleText": "编辑用户",
+               "navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/add-user/add-user",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "新建页面",
+                "navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "消息通知",
+                "navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "用户信息",
+                "navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/editing/editing",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "编辑用户",
+                "navigationBarBackgroundColor": "#F2F2F2"
+            }
+            
+        }
+        ,{
+            "path" : "pages/video/video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "红旗智慧农业物联网",
+		"navigationBarBackgroundColor": "#1985FF",
+		"enablePullDownRefresh": true,
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"easycom": {
+		"^s-(.*)": "@/uni_modules/s-ui/components/s-$1/s-$1.vue",
+		"^evan-(.*)": "@/components/evan-$1/evan-$1.vue"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#1985FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar/white/index.png",
+				"selectedIconPath": "static/images/tabBar/blue/index.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/data/data",
+				"iconPath": "static/images/tabBar/white/data.png",
+				"selectedIconPath": "static/images/tabBar/blue/data.png",
+				"text": "数据分析"
+			},
+			{
+				"pagePath": "pages/control/control",
+				"iconPath": "static/images/tabBar/white/control.png",
+				"selectedIconPath": "static/images/tabBar/blue/control.png",
+				"text": "控制中心"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/tabBar/white/user.png",
+				"selectedIconPath": "static/images/tabBar/blue/user.png",
+				"text": "我的"
+			}
+		]
+	}
+}
